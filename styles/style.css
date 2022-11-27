@@ -10,8 +10,9 @@
 
 #main-header {
     display: flex;
-    flex: 1;
-    justify-content: space-evenly;
+    padding: 1em;
+    padding-left: 6.5em;
+    justify-content: space-around;
     gap: 20em;
     background-color: #1F2937;
     color: #F9FAF8;
@@ -26,6 +27,7 @@
     display: flex;
     align-items: center;
     gap: 1em;
+    padding-right: 6em;
     font-weight: 100;
     list-style: none;
 }
@@ -41,34 +43,33 @@
     display: flex;
     justify-content: space-around;
     background-color: #1F2937;
-    color: #F9FAF8;
-    padding-top: 5em;
-    flex: 1;
-}
-
-#main-section img {
-    height: 300px;
-}
-
-#main-section h1 {
-    font-size: 48px;
-    font-weight: 900;
-    color: #F9FAF8;
+    padding: 4em 15em;
+    align-items: center;
+    gap: 2em;
 }
 
 #card {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.5em;
+    padding-bottom: 2em;
+    font-size: 48px;
+    width: 50%;
+    gap: 0.3em;
 }
 
-#main-section p {
+#card p {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-#main-section button {
+#card h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#card button {
     background-color: #3882F6;
     color:#F9FAF8;
     padding: 5px 20px;
