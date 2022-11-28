@@ -133,7 +133,7 @@
     gap: 16em;
     background-color: #3882F6;
     padding: 3em 0;
-    margin: 4em 15em;
+    margin: 6em 15em;
     border-radius: 10px;
     color: #F9FAF8;
 }
@@ -150,4 +150,14 @@
     font-weight: bold;
     width: 6em;
     padding: 0.5em 0em;
+}
+
+/* This is for the footer */
+
+#footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 1em 0em;
 }
