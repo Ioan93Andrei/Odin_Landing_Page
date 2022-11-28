@@ -34,7 +34,7 @@
 
 #main-header a{
     text-decoration: none;
-    color:#F9FAF8;
+    color:#E5E7EB;
 }
 
 /* This is for the main part. */
@@ -92,7 +92,8 @@
     display: flex;
     gap: 2em;
     justify-content: center;
-    padding: 2em 5em;
+    padding: 3em 5em;
+    padding-bottom: 10em;
 }
 
 #main-card-container .card-picture {
@@ -120,4 +121,33 @@
 
 #quote h6 {
     text-align: end;
+}
+
+/* This is for the call to action section */
+
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16em;
+    background-color: #3882F6;
+    padding: 3em 0;
+    margin: 4em 15em;
+    border-radius: 10px;
+    color: #F9FAF8;
+}
+
+.action-container p {
+    color:#E5E7EB;
+}
+
+.action-container button {
+    background-color: #3882F6;
+    border: 3px solid #E5E7EB;
+    border-radius: 10px;
+    color: #E5E7EB;
+    font-weight: bold;
+    width: 6em;
+    padding: 0.5em 0em;
 }
